@@ -7,7 +7,7 @@
     </div>
 </template>
 
-<style scoped>
+<style>
 
     .modal {
         width: 400px;
@@ -25,9 +25,13 @@
         height: 100%;
     }
     
-    h1 {
+    .modal h1 {
         color: #03cfb4;
         border: none;
         padding: 0;
+    }
+
+    .modal p {
+        text-align: end;
     }
 </style>
